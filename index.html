@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Trinary Browser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="trinary.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="trinary.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+
+<div class="container">
+  <img src="trinary.png" alt="Trinary logo" class="page-logo">
+  <div class="logo">Trinary</div>
+
+  <div class="search-box">
+    <img src="google.png" alt="Google" class="search-provider" id="googleBtn" title="Search with Google">
+    <input id="query" placeholder="Search or type a URL…" autofocus>
+  </div>
+
+  <div class="apps">
+    <div class="app" onclick="go('https://youtube.com')">
+      <img src="https://cdn.simpleicons.org/youtube/ffffff">
+      <span>YouTube</span>
+    </div>
+    <div class="app" onclick="go('https://instagram.com')">
+      <img src="https://cdn.simpleicons.org/instagram/ffffff">
+      <span>Instagram</span>
+    </div>
+    <div class="app" onclick="go('https://spotify.com')">
+      <img src="https://cdn.simpleicons.org/spotify/ffffff">
+      <span>Spotify</span>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
